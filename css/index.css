@@ -1,0 +1,149 @@
+
+* {margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+
+/* Personalização da body */
+body{
+    background-image: url("../img/logo2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+/* Fim personalização da body */
+
+
+
+
+
+
+/* Personalização do menu */
+ul{ display:flex;
+    justify-content:space-around;
+    list-style: none;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+
+          #menuF ul a{font-size: 28px;
+              color: white;
+              text-decoration: none;
+             
+
+          }
+
+          #menuF ul a img{
+            transition: all .5s;
+            border: 10px solid transparent;
+          }
+
+            #menuF ul a:hover{
+              transition: all .5s;
+            border: 10px solid transparent;
+            }
+
+
+.corpoF{text-align:center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.corpoF img:hover{
+  transition: all .5s;
+  border: 10px solid transparent;
+
+}
+
+
+.corpoF1{text-align:center;
+    color: #dba986;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 350px;
+    margin-right: 350px;
+    padding:5px;
+  }
+
+.corpoF1 h2{
+  font-size: 20px;
+
+}
+
+
+.equipeF{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5px;
+  
+}
+
+.card{
+  display: flex;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1) !important; 
+  
+  
+} 
+
+#equipename{
+  margin-left: 50px;
+  margin-top: 10px;
+
+}
+
+#equipenameL{
+  margin-left: 30px;
+  margin-top: 6px;
+
+}
+
+#equipenameM{
+  margin-left: 28px;
+  margin-top: 12px;
+
+}
+
+#equipenameG{
+  margin-left: 23px;
+  margin-top: 7px;
+
+}
+
+#equipenameLS{
+  margin-left: 50px;
+  margin-top: 7px;
+}
+
+
+.card a img{
+  transition: all .5s;
+  border: 2px solid transparent;
+}
+
+.card a img:hover{
+  transition: all .5s;
+  border: 10px solid transparent;
+}
+
+
+#equipeimg{
+  transition: all .5s;
+  border: 5px solid transparent;
+  border-radius: 50%;
+}
+
+#equipeimg:hover{
+  border: 5px solid #dba986;
+  border-radius: 50%;
+
+}
+
